@@ -7,7 +7,7 @@ def reverse(word):
         return str(word[::-1])
 '''typical python list slicing notation is going to be start, end, increment.'''
 
-print(reverse("Potato"))
+print(reverse("sandflakes"))
 
 '''
 Can't wait to spend four hours doing the same thing in js!! :'|
