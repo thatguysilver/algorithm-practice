@@ -4,9 +4,8 @@ import re
 
 def is_palindrome(raw_word):
 
-    word = re.match(r'[^a-zA-Z]+', raw_word)
-    if word.group() != None: 
-        print(word.group())
+    word = re.search(r'[^!@#$%^&*()\s]+\w+', raw_word)
+    print(word.group())
     '''
     for i in range(0, len(word)):
         a = (word[i].lower() == word[-(i+1)].lower())
