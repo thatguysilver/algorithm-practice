@@ -20,7 +20,7 @@ def is_palindrome(raw_word):
         print("It is a palindrome.")
 
 
-is_palindrome("abcdefgf/\edcba")
+is_palindrome("abcgdsafdsf/\edcba")
 is_palindrome("a!#bcd#ef@gFed%cba")
 
 '''

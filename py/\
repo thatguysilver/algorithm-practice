@@ -1,0 +1,10 @@
+#Gotta find the longest word in a string.
+
+def longest(string):
+    string.split())
+    for i in range(len(string)):
+        print(string[i])
+
+
+
+longest("The quick brown fox jumped over the thing")
