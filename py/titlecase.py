@@ -1,10 +1,10 @@
-#I have to capitalize the first word of any string.
+#! /usr/bin/python3
 
-def titlecase(string):
-    string = string.lower()
-    first_letter = string[0]
-    first_letter = first_letter.capitalize()
-    print(first_letter)
-    print(string)
+#I have to capitalize the first word of any word in a string.
 
+def titlecase(str):
+    str = str.split()
+    for word in range(len(str)):
+        str[word] = str[word].capitalize()
+    print(' '.join(str))
 titlecase("why NOT go away For a whilE?")
